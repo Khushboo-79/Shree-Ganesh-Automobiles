@@ -850,10 +850,7 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
-/* Firefox */
-input[type=number] {
-  -moz-appearance: textfield;
-}
+
 
 input[type=checkbox] {
   visibility: hidden;
@@ -1433,7 +1430,7 @@ textarea.is-invalid {
   border: none;
   border-radius: 5px !important;
   text-align: center;
-  background-color: #---7e7e7f;
+  background-color: #676967;
   color: var(--white-color);
   font-family: var(--title-font);
   font-size: 16px;
@@ -2140,7 +2137,7 @@ h3.sec-title {
   width: 50px;
   line-height: 50px;
   border-radius: 50%;
-  background: var(--theme-color);
+  background: #ffffff;
   text-align: center;
   position: relative;
   z-index: 1;
@@ -4072,9 +4069,7 @@ ul.wp-block-latest-posts li:last-child {
   height: 62px;
   top: -1px;
 }
-.newsletter-form.style2 {
-  /* Extra small devices */
-}
+
 .newsletter-form.style2 .form-group input {
   border: 2px solid #e1e1e1;
   border-right: 0;
@@ -4741,6 +4736,7 @@ ul.wp-block-latest-posts li:last-child {
 }
 .header-layout2 .menu-area {
   background: #010035;
+  margin: -5px;
 }
 .header-layout2 .main-menu > ul > li > a {
   padding: 16px 0;
@@ -4892,10 +4888,7 @@ ul.wp-block-latest-posts li:last-child {
   color: var(--theme-color);
 }
 
-.header-layout4 {
-  /* Large devices */
-  /* Medium devices */
-}
+
 .header-layout4 .header-top {
   padding: 20px 0 0;
 }
@@ -6447,17 +6440,6 @@ span.edit-link {
   font-weight: 700;
 }
 
-#cancel-comment-reply
-
-
-
-
-
-
-
-6-link:hover {
-  text-decoration: underline;
-}
 
 .comment-respond {
   margin-top: 30px;
@@ -8638,17 +8620,13 @@ li.trackback {
   margin-right: 20px;
   margin-top: 5px;
 }
-.checklist.mb-40 {
-  /* Large devices */
-}
+
 @media (max-width: 1199px) {
   .checklist.mb-40 {
     margin-bottom: 32px;
   }
 }
-.checklist.mb-45 {
-  /* Large devices */
-}
+
 @media (max-width: 1199px) {
   .checklist.mb-45 {
     margin-bottom: 35px;
@@ -10275,9 +10253,7 @@ li.trackback {
   }
 }
 
-.portfolio-tab-1 {
-  /* Small devices */
-}
+
 .portfolio-tab-1 .filter-menu-active {
   display: flex;
   flex-wrap: wrap;
@@ -12136,9 +12112,7 @@ li.trackback {
   -webkit-appearance: none;
   margin: 0;
 }
-.cart_table .qty-input[type=number] {
-  -moz-appearance: textfield;
-}
+
 .cart_table .actions {
   text-align: right;
   vertical-align: middle;
@@ -13182,22 +13156,7 @@ li.trackback {
 ==================================*/
 /*------------------- Global -------------------*/
 /* rtl Support */
-[dir=rtl] {
-  /*-- margin Right --*/
-  /*-- Padding Left --*/
-  /*-- Padding Right --*/
-  /* Header 1 ---------------------------------- */
-  /* Extra large devices */
-  /* Medium Large devices */
-  /* Medium Large devices */
-  /* Large devices */
-  /* Medium devices */
-  /* Header 2 ---------------------------------- */
-  /* Extra small devices */
-  /* Medium Large devices */
-  /* Extra small devices */
-  /************** wcu-thumb-wrap ***************/
-}
+
 [dir=rtl] .ml-5 {
   margin-right: 5px;
   margin-left: 0;
@@ -13726,9 +13685,7 @@ li.trackback {
   left: 90px;
   right: auto;
 }
-[dir=rtl] .wcu-thumb-wrap {
-  /* Small devices */
-}
+
 [dir=rtl] .wcu-thumb-wrap .img-2 {
   margin: 120px 30px 0 0px;
 }
